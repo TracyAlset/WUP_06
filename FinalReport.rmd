@@ -102,7 +102,7 @@ fisher.test(table2)
 #fisherXY(mydata$race,mydata$cappun)
 ```
 ```{r}
-fisherXY = function(x, y, confL = 0, printAll=FALSE){
+fisherXY = function(x, y, confL = 0, printAll=TRUE){
   # Inputs: 
   #   x: factor variable, 2 levels
   #   y: factor variable, n levels
@@ -169,8 +169,11 @@ fisherXY = function(x, y, confL = 0, printAll=FALSE){
 ```
 
 ```{r}
-fisherXY(mydata$cappun,mydata$race)
+fisherXY(mydata$cappun,mydata$race , printAll = TRUE)
 ```
+ 
+ the p value for comparing white and black is lower than 0.05 and the same thing for comparing black and others , which signifies that there is a difference in both cases. But when it came to comparing white and others, the p value was 1 so there is no difference between them ( and that was seen with the percentage graph earlier).
+ 
  
 
 # Discussion and Conclusion
