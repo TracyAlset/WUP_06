@@ -82,6 +82,11 @@ colPerc(table2)
 ```
 
 
+Using the numerical data that is based on the percentage of race, the whitee population favors it more than opposing, the black population opposes it more than favoring it, and the other population favors it more than opposing it. So to sum, the white population is the one that favors this the most, and the black population is the one that opposes it the most.
+Moving to the numerical data that is based on the percentage of favoring or opposing : 
+the whte population has the highest percentage in both favoring and opposing and this doesn't make sense , so we have to use other analytical methods do understand this. 
+
+
 ## Inferential Results
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
