@@ -1,6 +1,6 @@
 ---
 title: "GSS challange"
-author: "Tracy Alset
+author: "Tracy Alset"
 date: "06/21/2022"
 output: html_document
 ---
