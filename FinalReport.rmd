@@ -109,8 +109,11 @@ The P value is very low so we run the fisher test.
 
 
 ```{r}
-fisherXY(mydata$cappun,mydata$race)
+fisherXY(mydata$cappun,mydata$race , printAll = TRUE)
 ```
+ 
+ Based on the p- values when comparing each group with another :
+ the p-value was smaller than 0.05 in every case which shows that there is a significant difference in each case between the two groups that are being compared.  
  
 
 # Discussion and Conclusion
