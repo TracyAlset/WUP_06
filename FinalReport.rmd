@@ -103,6 +103,11 @@ fisher.test(table2)
 #fisherXY(mydata$race,mydata$cappun)
 ```
 
+
+The P value is very low so we run the fisher test.
+
+
+
 ```{r}
 fisherXY(mydata$cappun,mydata$race)
 ```
